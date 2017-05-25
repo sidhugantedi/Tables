@@ -1,0 +1,83 @@
+.table {
+    background-color: cornsilk;
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px;
+    border-color: black;
+    margin-top: 50px;
+
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td:hover {
+    background-color: chocolate;
+
+}
+header, footer {
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+header p {
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: Lobster;
+}
+footer p {
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: Baloo;
+}
+#sidebarL {
+    height: 500px;
+    width: 200px;
+    float: left;
+    background-color: dimgray;
+    margin-top: 50px;
+
+}
+#sidebarL p {
+    font-family: Arvo;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 220px;
+    font-weight: 900;
+    visibility: hidden;
+}
+#sidebarL:hover > p {
+    visibility: visible;
+}
+#sidebarR {
+    height: 500px;
+    width: 200px;
+    float: right;
+    background-color: dimgray;
+    margin-top: 50px;
+
+}
+#sidebarR p {
+    font-family: Arvo;
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 220px;
+    visibility: hidden;
+}
+#sidebarR:hover > p {
+    visibility: visible;
+}
+h1, h2, h3, h4, h5, h6 {
+    display: inline-block;
+}
+.headings {
+    text-align: center;
+}
